@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="210" viewBox="0 0 960 210" role="img" aria-label="Merhaba, ben Ramazan Eren Tepe">
+  <title>Merhaba, ben Ramazan Eren Tepe</title>
+  <defs>
+    <linearGradient id="headl-sheen" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="headl-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <linearGradient id="headl-border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="960" y2="210">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 480.0 105.0;360 480.0 105.0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="headl-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <filter id="headl-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="headl-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="headl-win"><rect x="10" y="10" width="940" height="190" rx="16"/></clipPath>
+    <g id="headl-blobs" filter="url(#headl-blur)" opacity="0.85">
+      <circle cx="144.0" cy="42.0" r="117.6" fill="#a78bfa">
+        <animate attributeName="cx" values="144.0;336.0;144.0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="816.0" cy="178.5" r="134.4" fill="#22d3ee">
+        <animate attributeName="cy" values="178.5;63.0;178.5" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="528.0" cy="21.0" r="84" fill="#f472b6">
+        <animate attributeName="cx" values="528.0;672.0;528.0" dur="16s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <clipPath id="headl-r0"><rect x="70" y="118" width="0" height="28"><animate attributeName="width" calcMode="discrete" dur="15.41s" begin="0s" keyTimes="0;0.03;0.03;0.04;0.04;0.05;0.05;0.06;0.06;0.06;0.07;0.07;0.08;0.08;0.09;0.09;0.09;0.1;0.1;0.11;0.11;0.11;0.12;0.12;0.13;0.13;0.14;0.14;0.14;0.15;0.15;0.27;0.27;0.27;0.28;0.28;0.28;0.28;0.28;0.29;0.29;0.29;0.29;0.29;0.29;0.3;0.3;0.3;0.3;0.3;0.31;0.31;0.31;0.31;0.31;0.31;0.32;0.32;0.32;0.32;0.32" values="0;12;24;36;48;60;72;84;96;108;120;132;144;156;168;180;192;204;216;228;240;252;264;276;288;300;312;324;336;348;360;348;336;324;312;300;288;276;264;252;240;228;216;204;192;180;168;156;144;132;120;108;96;84;72;60;48;36;24;12;0" repeatCount="indefinite"/></rect></clipPath><clipPath id="headl-r1"><rect x="70" y="118" width="0" height="28"><animate attributeName="width" calcMode="discrete" dur="15.41s" begin="0s" keyTimes="0;0.35;0.36;0.36;0.36;0.37;0.37;0.38;0.38;0.38;0.39;0.39;0.4;0.4;0.41;0.41;0.41;0.42;0.42;0.43;0.43;0.44;0.44;0.44;0.45;0.45;0.46;0.57;0.58;0.58;0.58;0.58;0.58;0.59;0.59;0.59;0.59;0.59;0.59;0.6;0.6;0.6;0.6;0.6;0.61;0.61;0.61;0.61;0.61;0.61;0.62;0.62;0.62" values="0;12;24;36;48;60;72;84;96;108;120;132;144;156;168;180;192;204;216;228;240;252;264;276;288;300;312;300;288;276;264;252;240;228;216;204;192;180;168;156;144;132;120;108;96;84;72;60;48;36;24;12;0" repeatCount="indefinite"/></rect></clipPath><clipPath id="headl-r2"><rect x="70" y="118" width="0" height="28"><animate attributeName="width" calcMode="discrete" dur="15.41s" begin="0s" keyTimes="0;0.65;0.65;0.66;0.66;0.66;0.67;0.67;0.68;0.68;0.69;0.69;0.69;0.7;0.7;0.71;0.71;0.71;0.72;0.72;0.73;0.73;0.74;0.74;0.74;0.75;0.75;0.76;0.76;0.77;0.77;0.77;0.78;0.78;0.79;0.79;0.8;0.91;0.92;0.92;0.92;0.92;0.92;0.92;0.93;0.93;0.93;0.93;0.93;0.94;0.94;0.94;0.94;0.94;0.94;0.95;0.95;0.95;0.95;0.95;0.96;0.96;0.96;0.96;0.96;0.96;0.97;0.97;0.97;0.97;0.97;0.98;0.98" values="0;12;24;36;48;60;72;84;96;108;120;132;144;156;168;180;192;204;216;228;240;252;264;276;288;300;312;324;336;348;360;372;384;396;408;420;432;420;408;396;384;372;360;348;336;324;312;300;288;276;264;252;240;228;216;204;192;180;168;156;144;132;120;108;96;84;72;60;48;36;24;12;0" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#headl-win)">
+    <use href="#headl-blobs"/>
+    <rect x="10" y="10" width="940" height="190" fill="rgba(255,255,255,0.40)"/>
+    <rect x="10" y="10" width="940" height="190" filter="url(#headl-grain)" opacity="0.07"/>
+    <rect x="10" y="10" width="940" height="190" fill="url(#headl-sheen)"/>
+  </g>
+  <rect x="10" y="10" width="940" height="190" rx="16" fill="none"
+        stroke="url(#headl-border)" stroke-width="3" opacity="0.6" filter="url(#headl-glow)"/>
+  <rect x="10.75" y="10.75" width="938.5" height="188.5" rx="15.5" fill="none"
+        stroke="url(#headl-border)" stroke-width="1.5"/>
+  <text x="44" y="82" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="40" font-weight="800" fill="#1f2328">Merhaba, ben <tspan fill="url(#headl-text)">Ramazan Eren Tepe</tspan></text>
+  <g transform="translate(880 70)">
+    <text x="0" y="0" font-size="40" text-anchor="middle" dominant-baseline="central">👋
+      <animateTransform attributeName="transform" type="rotate" values="0;18;-8;18;0;0" keyTimes="0;0.1;0.2;0.3;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <text x="44" y="138" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="20" font-weight="700" fill="#047857">❯</text>
+  <g font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="20" fill="#0e7490">
+    <text x="70" y="138" clip-path="url(#headl-r0)" textLength="360" lengthAdjust="spacing">Yazılım Mühendisliği Öğrencisi</text><text x="70" y="138" clip-path="url(#headl-r1)" textLength="312" lengthAdjust="spacing">C++ · Python Geliştiricisi</text><text x="70" y="138" clip-path="url(#headl-r2)" textLength="432" lengthAdjust="spacing">Her zaman yeni bir şeyler üretiyorum</text>
+  </g>
+  <rect x="70" y="121" width="3" height="22" rx="1" fill="#047857"><animate attributeName="x" calcMode="discrete" dur="15.41s" begin="0s" keyTimes="0;0.03;0.03;0.04;0.04;0.05;0.05;0.06;0.06;0.06;0.07;0.07;0.08;0.08;0.09;0.09;0.09;0.1;0.1;0.11;0.11;0.11;0.12;0.12;0.13;0.13;0.14;0.14;0.14;0.15;0.15;0.27;0.27;0.27;0.28;0.28;0.28;0.28;0.28;0.29;0.29;0.29;0.29;0.29;0.29;0.3;0.3;0.3;0.3;0.3;0.31;0.31;0.31;0.31;0.31;0.31;0.32;0.32;0.32;0.32;0.32;0.35;0.36;0.36;0.36;0.37;0.37;0.38;0.38;0.38;0.39;0.39;0.4;0.4;0.41;0.41;0.41;0.42;0.42;0.43;0.43;0.44;0.44;0.44;0.45;0.45;0.46;0.57;0.58;0.58;0.58;0.58;0.58;0.59;0.59;0.59;0.59;0.59;0.59;0.6;0.6;0.6;0.6;0.6;0.61;0.61;0.61;0.61;0.61;0.61;0.62;0.62;0.62;0.65;0.65;0.66;0.66;0.66;0.67;0.67;0.68;0.68;0.69;0.69;0.69;0.7;0.7;0.71;0.71;0.71;0.72;0.72;0.73;0.73;0.74;0.74;0.74;0.75;0.75;0.76;0.76;0.77;0.77;0.77;0.78;0.78;0.79;0.79;0.8;0.91;0.92;0.92;0.92;0.92;0.92;0.92;0.93;0.93;0.93;0.93;0.93;0.94;0.94;0.94;0.94;0.94;0.94;0.95;0.95;0.95;0.95;0.95;0.96;0.96;0.96;0.96;0.96;0.96;0.97;0.97;0.97;0.97;0.97;0.98;0.98" values="70;82;94;106;118;130;142;154;166;178;190;202;214;226;238;250;262;274;286;298;310;322;334;346;358;370;382;394;406;418;430;418;406;394;382;370;358;346;334;322;310;298;286;274;262;250;238;226;214;202;190;178;166;154;142;130;118;106;94;82;70;82;94;106;118;130;142;154;166;178;190;202;214;226;238;250;262;274;286;298;310;322;334;346;358;370;382;370;358;346;334;322;310;298;286;274;262;250;238;226;214;202;190;178;166;154;142;130;118;106;94;82;70;82;94;106;118;130;142;154;166;178;190;202;214;226;238;250;262;274;286;298;310;322;334;346;358;370;382;394;406;418;430;442;454;466;478;490;502;490;478;466;454;442;430;418;406;394;382;370;358;346;334;322;310;298;286;274;262;250;238;226;214;202;190;178;166;154;142;130;118;106;94;82;70" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" calcMode="discrete" dur="0.9s" repeatCount="indefinite"/></rect>
+  <text x="44" y="178" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#57606a">// GitHub köşeme hoş geldin</text>
+</svg>

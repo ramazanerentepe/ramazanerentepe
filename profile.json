@@ -1,0 +1,64 @@
+{
+  "username": "ramazanerentepe",
+  "name": "Ramazan Eren Tepe",
+  "greeting": "Merhaba, ben",
+  "left_sections": 2,
+  "tagline": "GitHub köşeme hoş geldin",
+  "roles": [
+    "Yazılım Mühendisliği Öğrencisi",
+    "C++ · Python Geliştiricisi",
+    "Her zaman yeni bir şeyler üretiyorum"
+  ],
+  "skills": [
+    "git", "docker", "linux", "windows",
+    "postgres", "mysql", "html", "css",
+    "sqlite", "vscode"
+  ],
+  "languages": [
+    "c", "cpp", "python", "java", "js"
+  ],
+  "sections": [
+    {
+      "title": null,
+      "items": [
+        ["Ad", "Ramazan Eren Tepe"],
+        ["Rol", "Yazılım Geliştirici"],
+        ["Konum", "Türkiye"],
+        ["Okul", "Konya Teknik Üniversitesi"],
+        ["Bölüm", "Yazılım Mühendisliği"],
+        ["Durum", "Öğreniyor · Geliştiriyor · Paylaşıyor"],
+        ["Araçlar", "VS Code, Eclipse, Git, Docker"]
+      ]
+    },
+    {
+      "title": null,
+      "items": [
+        ["Diller", "C, C++, Python, Java, JavaScript"],
+        ["Frontend", "HTML, CSS, JavaScript"],
+        ["Backend", "Python"],
+        ["Veritabanı", "MySQL, PostgreSQL, SQLite"]
+      ]
+    },
+    {
+      "title": "İletişim",
+      "items": [
+        ["Web Sitesi", "mylinktree.teperamazaneren.workers.dev"],
+        ["E-posta", "teperamazaneren@gmail.com"],
+        ["LinkedIn", "in/ramazan-eren-tepe-516651340"],
+        ["GitHub", "github.com/ramazanerentepe"]
+      ]
+    },
+    {
+      "title": "Projeler",
+      "items": [
+        ["Spotify", "Playlist & ruh hali analizi · Python"]
+      ]
+    },
+    {
+      "title": "Canlı İstatistikler",
+      "items": [
+        [null, "GitHub istatistiklerim aşağıda ↓"]
+      ]
+    }
+  ]
+}
