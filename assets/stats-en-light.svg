@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="296" viewBox="0 0 960 296" role="img" aria-label="GitHub stats">
+  <title>GitHub stats</title>
+  <defs>
+    <linearGradient id="statsl-sheen" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="statsl-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <linearGradient id="statsl-border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="960" y2="296">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 480.0 148.0;360 480.0 148.0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="statsl-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <filter id="statsl-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="statsl-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="statsl-win"><rect x="10" y="10" width="940" height="276" rx="16"/></clipPath>
+    <g id="statsl-blobs" filter="url(#statsl-blur)" opacity="0.85">
+      <circle cx="144.0" cy="59.2" r="165.76" fill="#a78bfa">
+        <animate attributeName="cx" values="144.0;336.0;144.0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="816.0" cy="251.6" r="189.44" fill="#22d3ee">
+        <animate attributeName="cy" values="251.6;88.8;251.6" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="528.0" cy="29.6" r="118.4" fill="#f472b6">
+        <animate attributeName="cx" values="528.0;672.0;528.0" dur="16s" repeatCount="indefinite"/>
+      </circle>
+    </g></defs>
+
+  <g clip-path="url(#statsl-win)">
+    <use href="#statsl-blobs"/>
+    <rect x="10" y="10" width="940" height="276" fill="rgba(255,255,255,0.40)"/>
+    <rect x="10" y="10" width="940" height="276" filter="url(#statsl-grain)" opacity="0.07"/>
+    <rect x="10" y="10" width="940" height="276" fill="url(#statsl-sheen)"/>
+  </g>
+  <rect x="10" y="10" width="940" height="276" rx="16" fill="none"
+        stroke="url(#statsl-border)" stroke-width="3" opacity="0.6" filter="url(#statsl-glow)"/>
+  <rect x="10.75" y="10.75" width="938.5" height="274.5" rx="15.5" fill="none"
+        stroke="url(#statsl-border)" stroke-width="1.5"/>
+  <rect x="11" y="11" width="938" height="40" rx="15" fill="rgba(255,255,255,0.35)"/>
+  <line x1="11" y1="51" x2="949" y2="51" stroke="rgba(31,35,40,0.14)"/>
+  <circle cx="34" cy="31" r="6" fill="#ff5f57"/><circle cx="54" cy="31" r="6" fill="#febc2e"/><circle cx="74" cy="31" r="6" fill="#28c840"/>
+  <text x="480.0" y="35" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#57606a">ramazanerentepe@github: ~/stats</text>
+  <line x1="480.0" y1="78" x2="480.0" y2="266" stroke="rgba(31,35,40,0.14)" stroke-dasharray="3 5"/>
+  <g font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13">
+    <text x="44" y="92" fill="#047857" font-weight="700">~ <tspan fill="#7c3aed">GitHub Stats</tspan></text><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.4s" fill="freeze"/><g transform="translate(44 120)" fill="none" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" color="#7c3aed"><path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.3L8 11.1l-3.9 2.2.9-4.3-3.3-3 4.4-.5z"/></g><text x="72" y="132" fill="#0e7490" font-weight="700">Total Stars</text><text x="294" y="132" fill="#1f2328" font-weight="700">1</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.42s" dur="0.4s" fill="freeze"/><g transform="translate(44 152)" fill="none" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" color="#7c3aed"><circle cx="8" cy="8" r="3"/><path d="M0.5 8H5M11 8h4.5"/></g><text x="72" y="164" fill="#0e7490" font-weight="700">Total Commits</text><text x="294" y="164" fill="#1f2328" font-weight="700">189</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.54s" dur="0.4s" fill="freeze"/><g transform="translate(44 184)" fill="none" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" color="#7c3aed"><circle cx="4" cy="3.5" r="2"/><circle cx="4" cy="12.5" r="2"/><circle cx="12" cy="12.5" r="2"/><path d="M4 5.5v5M12 10.5V6.5a2.5 2.5 0 0 0-2.5-2.5H7.5M9 2.5L7.5 4 9 5.5"/></g><text x="72" y="196" fill="#0e7490" font-weight="700">Total PRs</text><text x="294" y="196" fill="#1f2328" font-weight="700">3</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.66s" dur="0.4s" fill="freeze"/><g transform="translate(44 216)" fill="none" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" color="#7c3aed"><circle cx="8" cy="8" r="6.5"/><circle cx="8" cy="8" r="1.2" fill="currentColor"/></g><text x="72" y="228" fill="#0e7490" font-weight="700">Total Issues</text><text x="294" y="228" fill="#1f2328" font-weight="700">10</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.4s" fill="freeze"/><g transform="translate(44 248)" fill="none" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" color="#7c3aed"><path d="M3 13.5V3a1.5 1.5 0 0 1 1.5-1.5H13.5V12H4.5A1.5 1.5 0 0 0 3 13.5a1.5 1.5 0 0 0 1.5 1.5H13.5"/></g><text x="72" y="260" fill="#0e7490" font-weight="700">Contributed to</text><text x="294" y="260" fill="#1f2328" font-weight="700">8</text></g>
+    <text x="512" y="92" fill="#047857" font-weight="700">~ <tspan fill="#7c3aed">Top Languages by Repo</tspan></text><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.42s" dur="0.4s" fill="freeze"/><rect x="512" y="120" width="14" height="14" rx="3" fill="#3572A5"/><text x="536" y="132" fill="#1f2328">Python</text><text x="702" y="132" fill="#57606a" text-anchor="end">3 repos</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.54s" dur="0.4s" fill="freeze"/><rect x="512" y="150" width="14" height="14" rx="3" fill="#f34b7d"/><text x="536" y="162" fill="#1f2328">C++</text><text x="702" y="162" fill="#57606a" text-anchor="end">2 repos</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.66s" dur="0.4s" fill="freeze"/><rect x="512" y="180" width="14" height="14" rx="3" fill="#b07219"/><text x="536" y="192" fill="#1f2328">Java</text><text x="702" y="192" fill="#57606a" text-anchor="end">1 repo</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.4s" fill="freeze"/><rect x="512" y="210" width="14" height="14" rx="3" fill="#f1e05a"/><text x="536" y="222" fill="#1f2328">JavaScript</text><text x="702" y="222" fill="#57606a" text-anchor="end">1 repo</text></g>
+    <circle cx="821" cy="168" r="64" fill="none" stroke="rgba(31,35,40,0.14)" stroke-width="22"/><circle cx="821" cy="168" r="64" fill="none" stroke="#3572A5" stroke-width="22" stroke-dasharray="0 402.12" stroke-dashoffset="-0" transform="rotate(-90 821 168)"><animate attributeName="stroke-dasharray" from="0 402.12" to="169.84 402.12" begin="0.4s" dur="0.6s" fill="freeze"/></circle><circle cx="821" cy="168" r="64" fill="none" stroke="#f34b7d" stroke-width="22" stroke-dasharray="0 402.12" stroke-dashoffset="-172.34" transform="rotate(-90 821 168)"><animate attributeName="stroke-dasharray" from="0 402.12" to="112.39 402.12" begin="0.58s" dur="0.6s" fill="freeze"/></circle><circle cx="821" cy="168" r="64" fill="none" stroke="#b07219" stroke-width="22" stroke-dasharray="0 402.12" stroke-dashoffset="-287.23" transform="rotate(-90 821 168)"><animate attributeName="stroke-dasharray" from="0 402.12" to="54.95 402.12" begin="0.76s" dur="0.6s" fill="freeze"/></circle><circle cx="821" cy="168" r="64" fill="none" stroke="#f1e05a" stroke-width="22" stroke-dasharray="0 402.12" stroke-dashoffset="-344.68" transform="rotate(-90 821 168)"><animate attributeName="stroke-dasharray" from="0 402.12" to="54.95 402.12" begin="0.94s" dur="0.6s" fill="freeze"/></circle><text x="821" y="166" text-anchor="middle" fill="#1f2328" font-size="22" font-weight="800">7</text><text x="821" y="184" text-anchor="middle" fill="#57606a" font-size="11">repos</text>
+  </g>
+</svg>
